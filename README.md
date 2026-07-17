@@ -1,7 +1,21 @@
-# SML Junior League
+# Industry Pathway Competition
 
-This Repository will hold the rulebook for the Junior League of RoboCup Industrial - Smart Manufacturing, which is expected to form during 2026.
+This Repository will hold the rulebook for the Industry Pathway Competition of RoboCup Industrial - Smart Manufacturing, which is expected to form during 2026.
 Official documents will be added in due time.
+
+## Website
+
+This repository doubles as the source for the **Industry Pathway** project website, built as a
+static site so it can be served directly via GitHub Pages (see `index.html`, `assets/`). Once
+GitHub Pages is enabled for this repo (Settings → Pages → Deploy from branch → this branch,
+folder `/`), it will be reachable at:
+
+`https://robocup-sml.github.io/SML_Junior_RuleBook/`
+
+- `index.html` — call for participation: who this is for, the 3-step pathway, and how to get involved.
+
+The SML Bridge rulebook itself is still being written and **is not published yet** — it will be
+added to this site (and this repo) once it reaches a shareable state.
 
 ## Major League Reference
 
