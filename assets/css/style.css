@@ -201,6 +201,11 @@ nav.primary a.is-active {
   border-color: var(--amber);
 }
 
+nav.primary a.lang-link {
+  padding-left: 20px;
+  border-left: 1.5px solid var(--rule);
+}
+
 .nav-toggle {
   display: none;
 }
@@ -347,6 +352,11 @@ nav.primary a.is-active {
 .card.on-concrete {
   background: var(--concrete);
   border-color: var(--rule);
+}
+
+.email-line {
+  overflow-wrap: anywhere;
+  font-size: 1rem;
 }
 
 /* ---------- quote-style callout (e.g. cooperation note) ---------- */
@@ -645,6 +655,7 @@ th.num {
   color: #fff;
   text-decoration: none;
   font-weight: 500;
+  overflow-wrap: anywhere;
 }
 
 .site-footer dd a:hover {
@@ -722,6 +733,14 @@ th.num {
 
   .nav-toggle:checked ~ nav.primary {
     display: flex;
+  }
+
+  nav.primary a.lang-link {
+    padding-left: 0;
+    border-left: none;
+    border-top: 1.5px solid var(--rule);
+    margin-top: 4px;
+    padding-top: 14px;
   }
 
   .nav-toggle-label {
