@@ -298,6 +298,33 @@ nav.primary a.lang-link {
   letter-spacing: -0.005em;
 }
 
+/* ---------- hero highlight strip ---------- */
+.hero-highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 24px;
+  list-style: none;
+}
+
+.hero-highlights li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--ink-soft);
+}
+
+.hero-highlights li::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: var(--amber);
+  transform: rotate(45deg);
+  flex: none;
+}
+
 /* ---------- sections ---------- */
 .section {
   padding: 56px 0;
@@ -357,6 +384,39 @@ nav.primary a.lang-link {
 .email-line {
   overflow-wrap: anywhere;
   font-size: 1rem;
+}
+
+/* ---------- photo gallery ---------- */
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.photo {
+  position: relative;
+  border: 1.5px solid var(--ink);
+  background: var(--ink);
+  overflow: hidden;
+}
+
+.photo img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.photo figcaption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: rgba(20, 24, 28, 0.88);
+  color: #fff;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 8px 12px;
 }
 
 /* ---------- quote-style callout (e.g. cooperation note) ---------- */
