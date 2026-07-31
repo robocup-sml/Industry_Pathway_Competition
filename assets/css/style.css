@@ -157,9 +157,21 @@ em.accent {
 
 .brand {
   display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+
+.brand-logo {
+  height: 42px;
+  width: auto;
+  flex: none;
+}
+
+.brand-text {
+  display: flex;
   flex-direction: column;
   gap: 2px;
-  text-decoration: none;
 }
 
 .brand .mark {
@@ -268,12 +280,22 @@ nav.primary a.lang-link {
 .btn-row {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 12px;
   margin-top: 1.8em;
 }
 
+.btn-row-sticker {
+  width: 140px;
+  margin-left: 40px;
+  margin-right: auto;
+  transform: rotate(16deg);
+  filter: drop-shadow(0 4px 10px rgba(20, 24, 28, 0.25));
+}
+
 /* ---------- hero ---------- */
 .hero {
+  position: relative;
   background: var(--panel);
   padding: 64px 0 56px;
 }
@@ -282,6 +304,7 @@ nav.primary a.lang-link {
   display: grid;
   gap: 20px;
 }
+
 
 .hero h1 {
   margin-top: 10px;
