@@ -1,5 +1,7 @@
 # SML Junior League
 
+Website: https://github.com/robocup-sml/Industry_Pathway_Competition.git
+
 This Repository will hold the rulebook for the Junior League of RoboCup Industrial - Smart Manufacturing, which is expected to form during 2026.
 Official documents will be added in due time.
 
