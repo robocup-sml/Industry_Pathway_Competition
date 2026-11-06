@@ -10,7 +10,7 @@ static site so it can be served directly via GitHub Pages (see `index.html`, `as
 GitHub Pages is enabled for this repo (Settings → Pages → Deploy from branch → this branch,
 folder `/`), it will be reachable at:
 
-`https://robocup-sml.github.io/SML_Junior_RuleBook/`
+`https://github.com/robocup-sml/Industry_Pathway_Competition.git`
 
 - `index.html` — call for participation: who this is for, the 3-step pathway, and how to get involved.
 
